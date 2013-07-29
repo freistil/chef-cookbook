@@ -1,0 +1,19 @@
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/tmp
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# test-kitchen
+.kitchen
+.vagrant
+
+# Berkshelf
+Berksfile.lock
