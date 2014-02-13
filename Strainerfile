@@ -1,3 +1,4 @@
+rubocop:     bundle exec rubocop -l
 knife:       bundle exec knife cookbook test $COOKBOOK
 foodcritic:  bundle exec foodcritic $SANDBOX/$COOKBOOK -f any
-rspec:       (cd $SANDBOX/$COOKBOOK && bundle exec rspec --color --format documentation)
+#rspec:       (cd $SANDBOX/$COOKBOOK && bundle exec rspec --color --format documentation)

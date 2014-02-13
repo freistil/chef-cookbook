@@ -10,6 +10,7 @@ group :test do
   gem 'knife-spork',      '~> 1.0.17'
   gem 'hipchat',          '~> 0.10.0'
   gem 'berkshelf'
+  gem 'rubocop'
 
   gem 'guard',            '~> 1.8'
   gem 'guard-foodcritic', '~> 1.0'
