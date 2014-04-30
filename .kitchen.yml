@@ -1,0 +1,14 @@
+---
+driver:
+  name: vagrant
+
+provisioner: chef_zero
+
+platforms:
+  - name: ubuntu-12.04
+
+suites:
+  - name: default
+    run_list:
+      - recipe[cookbook::default]
+    attributes:

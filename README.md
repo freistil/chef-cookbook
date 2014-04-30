@@ -1,9 +1,9 @@
-chef-cookbook Cookbook
-======================
+foo Chef Cookbook
+=================
 TODO: Enter the cookbook description here.
 
 e.g.
-This cookbook makes your favorite breakfast sandwhich.
+This cookbook makes your favorite breakfast sandwich.
 
 Requirements
 ------------
@@ -15,10 +15,10 @@ e.g.
 
 Attributes
 ----------
-TODO: List you cookbook attributes here.
+TODO: List your cookbook attributes here.
 
 e.g.
-#### chef-cookbook::default
+#### foo::default
 <table>
   <tr>
     <th>Key</th>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### chef-cookbook::default
+#### foo::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `chef-cookbook` in your node's `run_list`:
+Just include `foo` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[chef-cookbook]"
+    "recipe[foo]"
   ]
 }
 ```
@@ -56,12 +56,12 @@ Contributing
 TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
 
 e.g.
-1. Fork the repository on Github
+1. Fork the repository on Bitbucket
 2. Create a named feature branch (like `add_component_x`)
-3. Write you change
-4. Write tests for your change (if applicable)
+3. Write your change
+4. Write tests for your change
 5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
+6. Submit a Pull Request
 
 License and Authors
 -------------------
