@@ -1,4 +1,4 @@
 knife:       knife cookbook test $COOKBOOK
-foodcritic:  foodcritic $SANDBOX/$COOKBOOK -f any
+foodcritic:  foodcritic $SANDBOX/$COOKBOOK -f correctness
 rubocop:     rubocop -l $SANDBOX/$COOKBOOK/recipes
 rspec:       (cd $SANDBOX/$COOKBOOK && rspec --color --format documentation)
