@@ -4,7 +4,7 @@ guard :rspec, cmd: 'bundle exec rspec', :all_on_start => false, notification: fa
   watch('spec/spec_helper.rb')      { 'spec' }
 end
 
-guard :foodcritic, cookbook_paths: '.', all_on_start: false do
+guard :foodcritic, cli: '-f correctness', cookbook_paths: '.', all_on_start: false do
   watch(%r{^attributes/.+\.rb$})
   watch(%r{^providers/.+\.rb$})
   watch(%r{^recipes/.+\.rb$})
