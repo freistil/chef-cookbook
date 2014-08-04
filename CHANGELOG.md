@@ -1,5 +1,5 @@
-# Changelog for the FOO Chef cookbook
+# Changelog for the foo Chef cookbook
 
-## 0.1.0:
+## HEAD
 
 * Initial release
